@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>ON/OFF</title>
+    </head>
+    <body>
+        <h1> bulb ON/OFF</h1>
+        <h2 id="status">off</h2>
+        <button onclick=turnon()>ON</button>
+        <button onclick=turnoff()>OFF</button>
+        <script>
+            function turnon(){
+                document.getElementById("status").innerText="on";
+            }
+            function turnoff(){
+                document.getElementById("status").innerText="off";
+            }
+        </script>
+    </body>
+</html>
